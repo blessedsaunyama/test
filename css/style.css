@@ -1,0 +1,23 @@
+.carousel-indicators img{
+    width: 70px;
+    display: block;
+}
+.carousel-indicators button{
+    width: max-content!important;
+}
+
+.carousel-indicators{
+    position: unset;
+}
+
+.carousel-indicators button.active img{
+    border: 2px solid rgb(0, 255, 0);
+}
+
+.carousel-item img{
+    height: 400px;
+}
+
+/*
+Data-bs-interval=2000
+*/
